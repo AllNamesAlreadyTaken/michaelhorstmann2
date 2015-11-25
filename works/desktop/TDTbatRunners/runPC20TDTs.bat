@@ -1,0 +1,1 @@
+START "BlndrBtl" "C:\GTMS\Blender Bottle\SMTDT\SMTDT.exe" "1"

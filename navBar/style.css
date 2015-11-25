@@ -1,0 +1,122 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  -webkit-perspective: 3000px;
+  -moz-perspective: 3000px;
+}
+.banner {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+}
+.perspective-wrapper {
+  position: relative;
+  top: 10px;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  z-index: 100;
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+}
+.header-front {
+  display: block;
+  width: 100%;
+  height: 100px;
+  color: #fff;
+  background: black;
+  list-style: none;
+  position: absolute;
+  height: 100px;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -webkit-transform: translateZ(50px);
+    -moz-transform: translateZ(50px);
+}
+.logo {
+  display: inline-block;
+  color: black;
+  font-size: 2.4em;
+  margin-left: 3%;
+  position: absolute;
+  top: 22%;
+  font-family: helvetica;
+  background-color: #ddd;
+  padding: 5px;
+  box-shadow: 0px 0px 0px 3px black, 0px 0px 0px 6px #aaa;
+}
+.header-front nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top:
+  
+}
+.header-front nav li {
+  display: inline-block;
+}
+.header-front nav li a {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  height: 100%;
+  line-height: 100px;
+  padding: 0px 20px;
+  font-family: helvetica;
+  text-decoration: none;
+  font-size: 2em;
+}
+.header-front nav li a:hover {
+  background-color: gray;
+}
+
+.header-bottom {
+  cursor: pointer;
+  width: 100%;
+  height: 100px;
+  background-color: #777;
+  /*overflow: hidden;*/
+  position: absolute;
+  top: 100px;
+  font-family: arial;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  line-height: 100px;
+  -webkit-transform: translateZ(50px) rotateX(-90deg);
+  -moz-transform: translateZ(50px) rotateX(-90deg);
+
+  -webkit-transform-origin: center top;
+  -moz-transform-origin: center top;
+
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+}
+
+
+
+.perspective-wrapper:hover {
+  -webkit-transform-origin: center center;
+  -moz-transform-origin: center center;
+  -webkit-transform: rotateX(20deg) translateZ(0px);
+  -moz-transform: rotateX(20deg) translateZ(0px);
+}
+.perspective-wrapper.rotated {
+  -webkit-transform-origin: center center;
+  -moz-transform-origin: center center;
+  -webkit-transform: rotateX(90deg) translateZ(0px);
+  -moz-transform: rotateX(90deg) translateZ(0px);
+}
+/*.perspective-wrapper:hover > .header-front {
+  -webkit-transform: translateZ(50px);
+  -moz-transform: translateZ(50px);
+}*/
+
+
+

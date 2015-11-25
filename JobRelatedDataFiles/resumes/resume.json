@@ -1,0 +1,249 @@
+{
+  "basics": {
+    "name": "Michael Horstmann",
+    "label": "IT analyst",
+    "picture": "drhs",
+    "email": "MHorstmann15228@gmail.com",
+    "phone": "(412)587-3278",
+    "website": "http://www.MichaelHorstmann.com",
+    "summary": "",
+    "location": {
+      "address": "109 Shady Drive West",
+      "postalCode": "",
+      "city": "Pittsburgh",
+      "countryCode": "USA",
+      "region": "Pennsylvania"
+      },
+    "profiles": [
+      {
+        "network": "Website",
+        "username": "Michael Horstmann",
+        "url": "http://www.MichaelHorstmann.com"
+      },
+      {
+        "network": "Facebook",
+        "username": "Michael Horstmann",
+        "url": "https://www.facebook.com/michael.horstmann.961"
+      },
+      {
+        "network": "Twitter",
+        "username": "MHorsieMan",
+        "url": "https://twitter.com/EmSoBlown"
+      },      
+      {
+        "network": "GitHub",
+        "username": "AllNamesAlreadyTaken",
+        "url": "https://github.com/AllNamesAlreadyTaken"
+      }
+    ]
+    },
+  "work": [
+    {
+      "company": "ShipMatrix",
+      "position": "IT analyst",
+      "website": "http://www.ShipMatrix.com",
+      "startDate": "2013-09-23",
+      "endDate": "",
+      "summary": "ShipMatrix is a business intelligence and reporting platform that leverages industry knowledge to better shipping practices of large scale shipping operations.",
+      "highlights": [
+        "Created and launched http://www.EasyTrackApp.com the application's brochure site.",
+        "Developed several new desktop applications, providing software specifications and testing analysis.",
+        "Created dynamic SQL queries to consistently update based on currently non processed files across 20+ vm's and 100+ databases hosted on 2 different servers.",
+        "Updated the main reporting site's look and feel as well as brought CSS1 up to current CSS3 standards.",
+        "Developed a communcations tool that downloads directly from both fedex.com and ups.com.",
+        "Gained a lot of knowledge about mobile apps, SQL Server, and desktop applications running in virtual environments."
+      ]
+    },
+    {
+      "company": "RedZone Robotics",
+      "position": "Reporting technician/Data analyst",
+      "website": "http://www.Redzone.com",
+      "startDate": "2010-10-01",
+      "endDate": "2013-08-02",
+      "summary": "RedZone Robotics was a CMU grad staffed asset reporting system.  Staffed primarily by brilliant young CMU graduates RedZone Robotics serviced municipal waste lines through robotic data collection of television, laser, gas, and IMU data.",
+      "highlights": [
+        "Created an entire company overhead view of the processes mapped to a flowchart that the company still has in use today.",
+        "Independently responsible for training and integration of new data processing methods into the Responder platform.",
+        "Managed data alignment using custom software and reporting back to software for bugs and enhancement requests personally and using freshdesk ticketing system.",
+        "Manually updated fields in Microsoft access using individual find and replaces or SQL update statements.",
+        "Updated company computer's hardware and software as needed.",
+        "Never missed a deadline even with the most complicated data.  Helped to remove 20+ accoutns from being 'in the red' per the company's requirements."
+      ]
+    },
+    {
+      "company": "DirecTV",
+      "position": "Level II Installation technician",
+      "website": "http://www.DirecTV.com",
+      "startDate": "2010-10-01",
+      "endDate": "2013-08-02",
+      "summary": "RedZone Robotics was a CMU grad staffed asset reporting system.  Staffed primarily by brilliant young CMU graduates RedZone Robotics serviced municipal waste lines through robotic data collection of television, laser, gas, and IMU data.",
+      "highlights": [
+        "Created an entire company overhead view of the processes mapped to a flowchart that the company still has in use today.",
+        "Independently responsible for training and integration of new data processing methods into the Responder platform.",
+        "Managed data alignment using custom software and reporting back to software for bugs and enhancement requests personally and using freshdesk ticketing system.",
+        "Manually updated fields in Microsoft access using individual find and replaces or SQL update statements.",
+        "Never missed a deadline even with the most complicated data.  Helped to remove 20+ accoutns from being 'in the red' per the company's requirements"
+      ]
+    }
+    ],
+  "volunteer": [
+    {
+      "organization": "Kosmonauts",
+      "position": "Developer",
+      "website": "http://MichaelHorstmann.com/Kosmonauts",
+      "startDate": "2014-09-15",
+      "endDate": "",
+      "summary": "Helped a friend out by creating a simple BootStrap layout DJ site where he can showcase his works using the embedded SoundCloud API",
+      "highlights": [
+        "SoundCloud API and dynamic layouts (mobile and desktop)"
+      ]
+    }
+    ],
+  "education": [
+    {
+      "institution": "ITT-Technical Institute",
+      "area": "Information Technology",
+      "studyType": "Associates",
+      "startDate": "2007-09-01",
+      "endDate": "2010-03-01",
+      "gpa": "3.8",
+      "courses": [
+        "IT-Software programming",
+        "IT-Multimedia"
+      ]
+    }
+    ],
+  "awards": [
+    {
+      "title": "Graduated with Honors",
+      "date": "2010-03-01",
+      "awarder": "ITT-Technical Institute Dean of IT -- Dr. Michael Yamber",
+      "summary": "Awarded for excellence in academic performance. (3.8)"
+    },
+    {
+      "title": "National Technical Honor Society",
+      "date": "2010-03-01",
+      "awarder": "NTHS",
+      "summary": "Awarded for excellence in academic performance. (3.75 or higher only)"
+    }
+    ],
+  "publications": [
+    {
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "",
+      "summary": ""
+    }
+    ],
+  "skills": [
+    {
+      "name": "Web Development - Front End",
+      "level": "Intermediate",
+      "keywords": [
+        "HTML5",
+        "CSS",
+        "XHTML",
+        "XML",
+        "Javascript",
+        "Universal Analytics",
+        "Social Netowrking"
+        ]
+    },
+    {
+      "name": "Web Development - Back End",
+      "level": "Novice",
+      "keywords": [
+        "Web Services/ASP.NET",
+        "FTP/SFTP",
+        "NoSQL/MongoDB/cshtml"
+      ]
+    },
+    {
+      "name": "Desktop Development",
+      "level": "Intermediate",
+      "keywords": [
+        "Versioning",
+        "Specifications",
+        "Overseas Developers",
+        "Basic Terminal Usage",
+        "Java/C#",
+        "Microsoft SQL Server",
+        "Oracle Virtual Box",
+        "Basic Linux",
+        "Current trends"
+      ]
+    }
+    ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+    ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    },
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    },    
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+    ],
+  "references": [
+    {
+      "reference1": [
+        {
+          "name": "Erik Redinger",
+          "phone": "555-5555",
+          "affiliation": "company",
+          "title": "job title"
+        }
+      ],
+      "reference2": [
+        {
+          "name": "Erik Redinger",
+          "phone": "555-5555",
+          "affiliation": "company",
+          "title": "job title"
+        }
+      ],
+      "reference3": [
+      {
+          "name": "Erik Redinger",
+          "phone": "555-5555",
+          "affiliation": "company",
+          "title": "job title"
+      }
+      ],
+      "reference4": [
+      {
+          "name": "Erik Redinger",
+          "phone": "555-5555",
+          "affiliation": "company",
+          "title": "job title"
+      }
+      ],
+      "reference5": [
+      {
+          "name": "Erik Redinger",
+          "phone": "555-5555",
+          "affiliation": "company",
+          "title": "job title"
+      }]
+    }]
+}

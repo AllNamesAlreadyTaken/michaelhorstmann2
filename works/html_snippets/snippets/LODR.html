@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--
+	<script type="text/javascript" rel="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<style type="text/css" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"></style>
+	-->
+	<style>
+	.frameClass{
+		position:fixed; 
+		top:0; 
+		left:0; 
+		right:0; 
+		bottom:90; 
+		width:100%; 
+		height:90%;
+		}
+
+	.controlsClass{
+		margin-left:auto;
+		margin-right:auto;
+		border: 1; 
+		position:fixed; 
+		top:10; 
+		left:0; 
+		right:0; 
+		bottom:0; 
+		width:100%; 
+		height:10%;
+		}
+
+	.injectorTypes ul li{
+		list-style:none;
+		display:inline;
+		}
+
+	.buttons{
+		text-align:center;
+		color: white;
+		background: black;
+		padding: 5px 10px;
+		}
+
+	.buttons li:hover{
+		text-align:center;
+		background: #fff;
+		}
+	</style>
+	
+	<meta charset="UTF-8">
+	<title>Lodr - flavor your faves</title>
+</head>
+<body>
+	<section id="controlBar">
+			<div class="controlsClass">
+				<div class="injectorTypes">
+					<ul class="buttons">
+						<li id="none">					Reload Page with:</li>
+						<li><img src="http://www.chmoddesign.com/img/work/jquery_icon.png" height="20px" width="20px" alt="jQuery"/></li>
+						<li><img src="https://iojs.org/images/1.0.0.png" height="20px" width="20px" alt="ioJS"/></li>
+						<li><img src="https://pbs.twimg.com/profile_images/2149314222/square.png" heigh="20px" width="20px" alt="AngularJS"/></li>
+						<li><img src="https://shinetechblog.files.wordpress.com/2014/11/d3js.png?w=640" height="20px" width="20px" alt="d3JS"/></li>
+						<li><img src="http://www.ninjajournal.com/wp-content/uploads/2014/03/javascript_logo_without_title.png" height="20px" width="20px" alt="vanillaJS"/></li>
+						<li><div class="btn btn-large" onPress="somefunction()">GetRecords</div></li>
+					</ul>
+				</div>
+			</div>
+	</section>
+	<section id="mainArea">
+			<iframe src="http://www.fedex.com/us" class="frameClass">
+	</section>
+	
+</body>
+<!-- script injectors -->
+<script>
+var scriptTag = "<script>alert(1)<\/script>";
+
+$("#iframe").contents().find("body").append(scriptTag);
+
+</script>
+</html>
+

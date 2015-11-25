@@ -1,0 +1,1 @@
+START "Wisconsin" "C:\Wisconsin Logistics\SMTDT\SMTDT.exe" "1"

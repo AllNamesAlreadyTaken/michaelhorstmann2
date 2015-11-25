@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <link rel="stylesheet" href="/style/style.css">
+        <meta charset="UTF-8">
+        <title> SQL2012 machine </title>
+        <!--  FireBase CDN Script Link Below -->
+           <!-- <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script> -->
+        <!-- FireBase Example jQuery Ver. no.-->
+        <!--  *Requirements for Bootstrap styling*  -->
+    
+    <!-- IF NETWORK LIVE! SWITCH TO THESE -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!--   -->
+
+    <!-- IF NETWORK DOWN! SWITCH TO THESE -->
+    <!--
+        <script src="js/statJSforNetworkDown/jquery-2.1.3.min.js"></script>
+        <script src="js/statJSforNetworkDown/angular.min.js"></script>
+        <script src="js/statJSforNetworkDown/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="js/statCSSforNetworkDown/bootstrap.min.css">
+    -->
+    <!--     -->
+    
+        <!--  *END: Requirements for Bootstrap styling*  -->
+        <script src="scripts/buttons.js"></script>
+        <script src="scripts/viewController.js"></script>
+        <script src="scripts/searchForm.js"></script>
+        <script src="scripts/views.js"></script>
+    </head>
+
+<html>
+    <body>
+    <!-- Begin Nav content here -->
+        <div class="container-fluid">
+            <nav class="navbar navbar-inverse navbar-default">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" title="Default admin view and Home Page.">AppInsight</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" height="100px"><span class="badge">6</span>  SCM <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>SM Comms Mod</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" height="100px"><span class="badge">25</span>  TDT <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>SMTDT</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" height="100px"><span class="badge">273</span>  ENTP <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>RECONCILE ENABLED</li>
+                            <li class="divider"></li>
+                            <li>RECONCILE DISABLED</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" height="100px"><span class="badge">67</span>  MSM <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu" height="100px">
+                            <li>KEVIN/INET</li>
+                            <li class="divider"></li>
+                            <li>KEVIND/INETD</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" height="100px"><span class="badge">24</span>  ServicePC <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>SERVICE PC's</li>
+                        </ul>
+                    </li>
+                    <!--
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" height="100px"><span class="badge">tdt</span>  by ServicePC <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>SERVICE PC's</li>
+                            <li class="divider"></li>
+                        </ul>
+                    </li>
+                    -->
+                </ul>
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder=" Search">
+                    </div>
+                </form>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!-- End Nav content here -->
+    <!-- Begin mainbody content below -->
+    <div class="container">
+        <div id="appInsight">
+            <div id="main-wrapper" class="col-md-12">
+                <div id="main">
+                <div class="page-header">
+                    <h3>Dashboard</h3>
+                </div>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget magna et ante suscipit lacinia. Aenean porttitor velit id pretium blandit. Aenean ut sodales ante. Ut faucibus ornare venenatis. Duis sit amet arcu eros. Mauris volutpat vestibulum congue. Nam volutpat, urna eu varius dapibus, velit nisl bibendum lorem, sit amet dapibus sem dolor eu felis.
+
+                Nulla tincidunt augue vel dolor convallis lobortis. Nunc nibh dolor, tincidunt elementum lorem id, porta imperdiet neque. Quisque egestas lacus nec magna mattis aliquam. Nunc eget orci odio. Quisque neque odio, lobortis a orci ut, tempus feugiat tortor. Quisque et tincidunt arcu. Sed vel accumsan risus. Quisque enim ipsum, luctus vitae ultrices at, vulputate eu lorem. Curabitur at nibh sagittis, lobortis odio nec, sodales velit. Aenean interdum, magna nec molestie congue, magna nisi sodales dolor, at mattis ipsum nisi at nibh. Aenean quis dictum lacus. Vivamus commodo sit amet nibh eget scelerisque. Duis consequat fringilla mollis. Sed eros risus, sodales in porttitor bibendum, vulputate ut est.
+                </p>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+    <!-- End mainbodyody content here -->
+    <script>
+    $(document).ready(function($){ //enable jQuery on document ready
+        buttons();
+    });
+    </script>
+    
+    </body>
+
+</html>

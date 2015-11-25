@@ -1,0 +1,6 @@
+The original login form @ "https://www.myshipmatrix.com/MSM/?submitMSM=Sign+in"
+was a static form in ASPX.NET.  I edited the ASPX.NET HTML component to include
+Bootstrap for styling and laid out the MyShipMatrix Login to be a dynamically
+scaling form that displays well on desktop, tablet, and mobile.  This login also
+included *-danger panel for failed logins and a redirect to the login page to
+retry.

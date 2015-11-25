@@ -1,0 +1,1 @@
+START "PC8_afms" "C:\AFMS\SMTDT\SMTDT.exe" "1"

@@ -1,0 +1,16 @@
+a:link {text-decoration:underline; color:#5c5c5c}
+a:visited {text-decoration:underline; color:#808080}
+a:hover {text-decoration:underline; color:#808080}
+a:active {text-decoration:underline; color:#808080}
+span.terminal {font-family:lucida console, courier new; color:#ff6309}
+div.terminal {font-size:small; font-family:courier new; color:#ffffff; background:#000000; padding:5px; margin:5px; border-style:double; border-color:#ffffff; width:550px; overflow: auto; white-space: nowrap}
+div.terminallimited {font-family:lucida console, courier new; color:#ffffff; background:#000000; overflow:auto; width:500px; padding:5px; margin:5px; border-style:double; border-color:#ffffff}
+div.regular {font-family:bitstream vera sans, lucida sans unicode, verdana, sans-serif, times new roman; color:#000000; font-size:small; line-height:140%}
+div.expired {font-family:bitstream vera sans, lucida sans unicode, verdana, sans-serif, times new roman; color:#efefef; font-size:small; line-height:140%}
+span.title {color:#e47769; font-weight:bold}
+span.subtitle {font-size:xx-small}
+h1 {margin-bottom:1; color:#d76336}
+h2 {margin-bottom:1; color:#d76336}
+h3 {margin-bottom:1; color:#d76336}
+h4 {margin-bottom:1; color:#d76336}
+b {font-weight:bold}

@@ -1,0 +1,17 @@
+SQL Server:
+
+“selecting as json” - Simple tool to select SQL 2008 R2 records as JSON. Will be irrelevant in SQL 2016 where you will be able to natively output as JSON.
+I used this select statement to creates VIEWS that generated JSON to consume on the front end.
+
+“LookupTableQuery” - Simple script to dynamically find any records with a field of a given value.  I used this to run queries where I wasn’t sure of what I was looking for, but also to parse every column without having to type them out repeatedly. Later turned into a stored procedure.
+
+“InternalFBOPInvoiceAuditsByDateWorking” - Script to dynamically query into our 2 public data servers INET/INETD for any missing files by fileName.
+
+“AppInsightMasterProcess” - Master Process I initiated on the ServicePC a coworker and I dedicated to building the “AppInsight” tool from. Goes through the available machines and updates tables 3x/day where the query defines it to do so.
+
+“Internal FBOP Audits By Invoice date” Script to check for FBOP invoices by a given date range.  Checks several different areas dynamically.
+
+JS:
+“AsciiArtName.js” - Fun little addition I’m going to push to my website to add my name in ascii art on document ready.
+
+"osDetailsNodeJS" - JS script to run in nodeJS to get relevant OS stats.

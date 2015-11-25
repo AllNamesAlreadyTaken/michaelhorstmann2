@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Works</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+   <h1><a href="http://www.michaelhorstmann2.com">Return Home</a></h1>
+    <div class="panel panel-primary">
+    <div class="panel-heading">
+    <h2>Front-End Scripts</h2></div>
+    <div class="panel-body">
+    <h3>JavaScript file to load onto <a href="http://barkleyrei.com/">BarkleyREI</a> pittsburgh page.</h3> 
+    <a href="./barkleyREIpageUpdater.js">View</a>
+    <a href="./barkleyREIpageUpdater.js" download="barkleyjQueryLodeAndEnhance.js">Download</a> 
+    <p>This script was used to demonstrate the ability to add into an existing page jQuery, and apply some random jQuery functionality to a page.  The script also restyled some of the page content to display some CSS editing capabilities.</p>
+    <br/>
+    <h3>ShipMatrix table converter script</h3>
+        <a href="./PrintBody_01282015.js">View</a>
+        <a href="./PrintBody_01282015.js" download="./PrintBody_01282015.js">Download</a>
+    <p>Function to convert a table into an object to pass into a new page.</a> As is this will just cycle the table and print out the conversion in the console.  This was used at ShipMatrix to parse through a table and get the table cell values.  The next step was to convert the values into divs as Google print option has trouble applying table styles to print jobs.</p>
+    <h3>List currently instantiated browser variables.</h3>
+    <a href="./getWindowVars.js">View</a>
+    <a href="./getWindowVars.js" download="showMeBrowserVars.js">Download</a> 
+    <p>This script, when ran against any page in the developer tool's console alerts to the window all of the currently instantiated variables.  Useful for locating custom variables loaded into a page view.</p>
+    </div>
+    </div>
+    <br/>
+    <div class="panel panel-primary">
+    <div class="panel-heading"><h2>Back-End Scripts</h2></div>
+    <div class="panel-body">
+    <h3>Instantiate a NodeJS server and echo a list of system info</h3>
+    <a href="./nodeJS_ServerWithSysInfo.js">View</a>
+    <a href="./nodeJS_ServerWithSysInfo.js" download="nodeJS_ServerWithSysInfo.js">Download</a> 
+    <p>This script is meant to be ran in the node terminal, or a command line terminal where nodejs has been installed to windows.  It starts a localhost server using a defined port for comms and echoes off system info using a few of nodeJS' "os" module functions.</p>
+    <h3>NodeJS sysinfos script</h3>
+    <a href="instructionsForOS.js">View</a>  
+    <a href="instructionsForOS.js" download="instructionsForOS.js"> Download</a> 
+    <p>This script will echo a list of system info such as chip type, cores, and endianess to the console.  Run it in the node terminal or in the command line.</p>
+    <h3>AppInsight NodeJS server script</h3>
+    <a href="SANI_serverJSforAppInsight.js">View</a>
+    <a href="SANI_serverJSforAppInsight.js" download="./Sani_serverJSforAppInsight.js">Download</a>
+    <p>This was a multi SQL engine I built to connect to several VM instances which all had different versions of SQL Server running on them.  The goal was to manage 400 or so SQL Server databases from 1 front end application and use a backend nodejs app to patch into any version of SQL Server.  The server within is capable of connecting not just to MSSQL, but to Oracle, MySQL, PostgreSQL, Mongo, and other RDBM system engines as well.  Creating a universal SQL engine connection. The end goal was to connect to all 28 servers running different versions of SQL and send critical data to the front end application view to manage a vastly increased amount of databases with a high degree of accuracy over the existing "manage by exception" structure.</p>
+    </div>
+    </div>
+    </div>
+</body>
+</html>

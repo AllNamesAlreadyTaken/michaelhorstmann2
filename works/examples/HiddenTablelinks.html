@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pure JS - No jQuery</title>
+<script language="JavaScript" type="text/javascript">
+function sizeTbl(h, id) {
+  var tbl = document.getElementById(id);
+  tbl.style.display = h;
+}
+</script> 
+</head>
+<body>
+
+<div>
+for tbl
+<a href="javascript:sizeTbl('none', 'tbl')">Hide</a>
+<a href="javascript:sizeTbl('block', 'tbl')">Expand</a>
+<p>
+Some text before
+</p>
+<div id="tbl" name="tbl" style="overflow:hidden;display:none">
+<table border="1">
+<tr><td>test</td></tr>
+<tr><td>test</td></tr>
+<tr><td>test</td></tr>
+</table>
+</div>
+<p>
+some text after
+</p>
+</div>
+
+<div>
+for tbl2
+<a href="javascript:sizeTbl('none', 'tbl2')">Hide</a>
+<a href="javascript:sizeTbl('block', 'tbl2')">Expand</a>
+<p>
+Some text before
+</p>
+<p> Still with nesting </p>
+<div>
+<div id="tbl2" name="tbl2" style="overflow:hidden;display:none">
+<table border="1">
+<tr><td>test</td></tr>
+<tr><td>test</td></tr>
+<tr><td>test</td></tr>
+</table>
+</div>
+<p>
+some text after
+</p>
+</div>
+</div>
+
+<div>
+for tbl3
+<a href="javascript:sizeTbl('none', 'tbl3')">Hide</a>
+<a href="javascript:sizeTbl('block', 'tbl3')">Expand</a>
+<p>
+Some text before
+</p>
+<div id="tbl3" name="tbl3" style="overflow:hidden;display:none">
+<table border="1">
+<tr><td>test</td></tr>
+<tr><td>test</td></tr>
+<tr><td>test</td></tr>
+</table>
+</div>
+<p>
+some text after
+</p>
+</div>
+
+<div>
+for tbl4
+<a href="javascript:sizeTbl('none', 'tbl4')">Hide</a>
+<a href="javascript:sizeTbl('block', 'tbl4')">Expand</a>
+<p>
+Some text before
+</p>
+<div id="tbl4" name="tbl4" style="overflow:hidden;display:none">
+<table border="1">
+<tr><td>test</td></tr>
+<tr><td>test</td></tr>
+<tr><td>test</td></tr>
+</table>
+</div>
+<p>
+some text after
+</p>
+</div>
+
+<div>
+for tbl5
+<a href="javascript:sizeTbl('none', 'tbl5')">Hide</a>
+<a href="javascript:sizeTbl('block', 'tbl5')">Expand</a>
+<p>
+Some text before
+</p>
+<div id="tbl5" name="tbl5" style="overflow:hidden;display:none">
+<table border="1">
+<tr><td>test</td></tr>
+<tr><td>test</td></tr>
+<tr><td>test</td></tr>
+</table>
+</div>
+<p>
+some text after
+</p>
+</div>
+
+<div>
+for tbl6
+<a href="javascript:sizeTbl('none', 'tbl6')">Hide</a>
+<a href="javascript:sizeTbl('block', 'tbl6')">Expand</a>
+<p>
+Some text before
+</p>
+<div id="tbl6" name="tbl6" style="overflow:hidden;display:none">
+<table border="1">
+<tr><td>test</td></tr>
+<tr><td>test</td></tr>
+<tr><td>test</td></tr>
+</table>
+</div>
+<p>
+some text after
+</p>
+</div>
+
+</br>
+</body>
+</html>
